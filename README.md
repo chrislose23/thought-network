@@ -1,4 +1,4 @@
-# E-Commerce Back End
+# Thought Network
 
 ## Table of Contents
 
@@ -19,26 +19,15 @@ npm start
 
 ## Usage
 
-Sign Up / Sign In
+To launch the social network API, ensure you have MongoDB installed and running on your local machine. Then, follow these steps to start the server and sync the Mongoose models to your MongoDB database:
 
-Sign Up: Click on the "Sign Up" link or button to create a new account. You'll need to provide a username, email, and password.
-Sign In: If you already have an account, click on the "Sign In" link and enter your credentials to log in.
-Create a New Thought
+Open your command line interface (CLI).
+Navigate to the root directory of the project.
+Run the following command to start the server: npm start
 
-Navigate to the "Create Thought" page.
-Enter your thought in the provided text area.
-Click the "Post Thought" button to publish your thought.
-View and Interact with Thoughts
+To retrieve data from the server, you can use GET requests in Insomnia. This allows you to view formatted JSON data for users and thoughts.
 
-View Thoughts: On the homepage, you'll see a list of thoughts from other users. Click on any thought to view its details.
-Comment on Thoughts: To leave a comment, enter your message in the comment box below the thought and click "Submit."
-Manage Your Profile
-
-View Profile: Access your profile to view your posted thoughts and comments.
-Edit Profile: Update your profile information if needed.
-Log Out
-
-Click on the "Log Out" button to sign out of your account.
+You can create, update, and delete resources using POST, PUT, and DELETE requests in Insomnia as well.
 
 ## License
 
